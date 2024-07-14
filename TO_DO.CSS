@@ -1,0 +1,135 @@
+#main {
+    width: 80vw;
+    height: 151vh;
+    background-color: white;
+    /* border: 1.2rem solid blue; */
+    border-radius: 20vb;
+    display: flex;
+    margin: 0 auto;
+    animation-name: main;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: 900;
+    font-family: cursive;
+    text-align: center;
+    text-shadow: 2px 2px 3px orange;
+    animation-name: text;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes main {
+    0% {
+        /* border: 1.2rem solid red; */
+        box-shadow: inset 0px 0px 40px 40px rgb(250, 87, 87);
+    }
+
+    50% {
+        /* border: 1.2rem solid rgb(30, 255, 0); */
+        box-shadow: inset 0px 0px 40px 40px rgb(115, 255, 115);
+    }
+
+    100% {
+        /* border: 1.2rem solid skyblue; */
+        box-shadow: inset 0px 0px 40px 40px skyblue;
+    }
+}
+
+
+#one {
+    width: 40vw;
+    height: 131vh;
+    margin: 10vb;
+    border-radius: 5vb;
+    background-color: rgb(250, 175, 175);
+}
+
+#list {
+    /* width: 40vw;
+    height: 80vh; */
+    /* display: flex;
+    justify-content: space-between; */
+    font-style: italic;
+    font-weight: 900;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+div>h1,
+p {
+    font-style: italic;
+    font-weight: 900;
+    font-family: cursive;
+    text-shadow: 2px 2px 3px orange;
+    animation-name: text;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes text {
+    0% {
+        text-shadow: 2px 2px 3px orange;
+    }
+
+    50% {
+        text-shadow: 2px 2px 3px red;
+    }
+
+    100% {
+        text-shadow: 2px 2px 3px skyblue;
+    }
+}
+
+#btn {
+    width: 5vw;
+    height: 10vh;
+    border-radius: 1.2rem;
+    background-image: url("add.png");
+    background-size: 100% 100%;
+    transform: translateY(0vh);
+    animation-name: btn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+
+@keyframes btn {
+    0% {
+        transform: translateY(0vh);
+    }
+
+    25% {
+        transform: translateY(50vh);
+    }
+
+    50% {
+        transform: translateY(50vh);
+    }
+
+    75% {
+        transform: translateY(110vh);
+    }
+
+    100% {
+        transform: translateY(140vh);
+    }
+}
+
+#area {
+    width: 20vw;
+    height: 130vh;
+    margin: 10vb;
+    border-radius: 5vb;
+    background-color: rgb(213, 239, 250);
+    text-wrap: wrap;
+    font-style: italic;
+    font-weight: 900;
+    font-family: cursive;
+    font-size: 1.5rem;
+}
