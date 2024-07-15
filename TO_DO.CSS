@@ -1,6 +1,7 @@
 #main {
     width: 80vw;
-    height: 151vh;
+    /* height: auto; */
+    /* height: 151vh; */
     background-color: white;
     /* border: 1.2rem solid blue; */
     border-radius: 20vb;
@@ -43,7 +44,7 @@ h1 {
 
 #one {
     width: 40vw;
-    height: 131vh;
+    /* height: 131vh; */
     margin: 10vb;
     border-radius: 5vb;
     background-color: rgb(250, 175, 175);
@@ -58,6 +59,7 @@ h1 {
     font-weight: 900;
     font-family: cursive;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 div>h1,
@@ -123,7 +125,7 @@ p {
 
 #area {
     width: 20vw;
-    height: 130vh;
+    /* height: 130vh; */
     margin: 10vb;
     border-radius: 5vb;
     background-color: rgb(213, 239, 250);
